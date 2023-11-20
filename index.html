@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"> 
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        p {
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        .profile-pic {
+            max-width: 40%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .interests {
+            text-align: left;
+            margin: 20px;
+            max-width: 40%;
+        }
+
+        .interests ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .interests li {
+            margin-bottom: 10px;
+        }
+
+        .about-me {
+            text-align: justify;
+            margin: 20px;
+            max-width: 60%;
+            margin: 0 auto;
+        }
+
+        .line {
+            width: 80%;
+            margin: 20px auto;
+            border-bottom: 2px solid #ccc;
+        }
+
+        #cv-link {
+            display: inline-block;
+            margin: 20px 0 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Remote Sensing and Machine Learning in Kilala, Kenya</h1>
+    </header>
+
+    <!-- Short Paragraph -->
+    <p style="width: 60%; text-align: justify; margin: 0 auto; margin-top: 40px;">
+        I created and ran two machine learning techniques for a farming region near the town of Kilala, a major maize growing region in Kenya. Here I used QGIS to create training input data and validation data and then used R Studio to run the SVM and RF machine learning models and to calculate the results based on the validation dataset.</p>
+
+    <!-- Image -->
+    <img src="LULC_Kilala.jpeg" alt="Your Image Description">
+
+    <!-- Line -->
+    <div style="margin-bottom: 100px" class="line"></div>
+
+    <!-- Profile Picture and Interests -->
+    <div class="profile-container">
+        <div>
+            <!-- Profile Picture -->
+            <img class="profile-pic" src="profile_picture.JPEG" alt="Your Profile Picture">
+        </div>
+        <div class="interests">
+            <!-- Interests Section -->
+            <h2>Interests</h2>
+            <ul>
+                <li>Remote Sensing</li>
+                <li>Sustainable Agriculture</li>
+                <li>Geographic Information Systems</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Description of Myself -->
+    <div class="about-me">
+        <h2>About Me</h2>
+        <p>Completed a master's degree focused on Environmental Management and Sustainability at the University of Cape Town (UCT). My Master's thesis was achieved with distinction and assessed perceptions of a newly introduced GIS screening tool used in environmental impact assessment in South Africa. Have worked in South Africa, Saudi Arabia, and the Czech Republic. Currently working for UCT and the One Ocean Hub mapping small-scale fishing areas and mining threats on the West Coast of South Africa. Skilled in using GIS software as well as data analysis using R Studio and Excel. Passionate about applying GIS and remote sensing techniques to address environmental problems.</p>
+    </div>
+
+    <!-- Line -->
+    <div class="line"></div>
+
+    <!-- CV Attachment -->
+    <a id="cv-link" href="CV.pdf" style="margin-bottom: 200px" download>Download CV</a>
+
+</body>
+
+</html>
